@@ -1,0 +1,30 @@
+{
+  "name": "mypg",
+  "version": "0.1.0",
+  "description": "My opinionated wrapper around PostgreSQL client API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/titarenko/mypg.git"
+  },
+  "keywords": [
+    "pg",
+    "postgresql",
+    "promise",
+    "sql"
+  ],
+  "author": "Constantin Titarenko",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/titarenko/mypg/issues"
+  },
+  "homepage": "https://github.com/titarenko/mypg",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "pg": "^3.3.0",
+    "q": "^1.0.1"
+  }
+}
