@@ -1,14 +1,11 @@
 {
-  "name": "mypg",
+  "name": "sqlcut-pg",
   "version": "0.1.0",
-  "description": "My opinionated wrapper around PostgreSQL client API.",
+  "description": "PostgreSQL API adapter for sqlcut module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/titarenko/mypg.git"
+    "url": "git://github.com/titarenko/sqlcut-pg.git"
   },
   "keywords": [
     "pg",
@@ -19,11 +16,10 @@
   "author": "Constantin Titarenko",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/titarenko/mypg/issues"
+    "url": "https://github.com/titarenko/sqlcut-pg/issues"
   },
-  "homepage": "https://github.com/titarenko/mypg",
+  "homepage": "https://github.com/titarenko/sqlcut-pg",
   "dependencies": {
-    "lodash": "^2.4.1",
     "pg": "^3.3.0",
     "q": "^1.0.1"
   }
