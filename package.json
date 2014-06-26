@@ -1,6 +1,6 @@
 {
   "name": "sqlcut-pg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PostgreSQL API adapter for sqlcut module",
   "main": "index.js",
   "repository": {

@@ -2,7 +2,7 @@ var pg = require('pg');
 var Q = require('q');
 
 function pluckId (row) {
-	return +row.id;
+	return +row[0].id;
 }
 
 function SqlError (args, error) {
@@ -30,7 +30,7 @@ function ctor (connectionParameters) {
 		}
 
 		args[0] = mysqlToPg(args[0]);
-		
+
 		pg.connect(connectionParameters, function (error, client, done) {
 			if (error) {
 				return deferred.reject(new SqlError(args, error));
